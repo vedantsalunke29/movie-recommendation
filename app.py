@@ -9,7 +9,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 app = Flask(__name__)
 CORS(app)
 
-app.config.from_pyfile("settings.py")
+
 # Load Movie dataset
 df = pd.read_csv("imdb.csv")
 
