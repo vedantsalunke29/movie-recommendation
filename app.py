@@ -6,8 +6,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 
-
-
 app = Flask(__name__)
 CORS(app)
 
@@ -98,3 +96,5 @@ def get_recommendations(movie_name):
     return jsonify(df)
 
 
+if __name__ == "__main__":
+    app.run(host="127.0.0.1", port=PORT, debug=True)
