@@ -26,5 +26,6 @@ This is a Movie Recommendation System developed using Flask and Content-based fi
 **Cloud Storage:** MongoDB Atlas and Cloudinary
 
 ## Screenshots
-![App Screenshot](https://github.com/user-attachments/assets/70e32649-c1a3-409c-979d-2e0ac9de4084")
+
+![image](https://github.com/user-attachments/assets/84e36a10-435a-4742-8b00-048bf704e9ee)
 
