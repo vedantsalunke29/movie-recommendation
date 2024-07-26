@@ -13,8 +13,10 @@ CORS(app)
 
 app.config.from_pyfile("settings.py")
 # Load Movie dataset
-df = pd.read_csv("imdb.csv")
+df = pd.read_csv("dataset\imdb.csv")
+
 index = range(0, len(df))
+
 df["index"] = index
 df.set_index("index")
 
