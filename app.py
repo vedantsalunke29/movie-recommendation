@@ -97,4 +97,4 @@ def get_recommendations(movie_name):
 
 
 if __name__ == "__main__":
-    app.run(host="127.0.0.1", port=PORT || 3000, debug=True)
+    app.run(host="127.0.0.1", port=PORT, debug=True)
