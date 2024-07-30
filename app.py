@@ -7,7 +7,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
-from settings import PORT
+
 import numpy as np
 
 import re
@@ -164,4 +164,4 @@ def get_result(text):
 
 
 if __name__ == "__main__":
-    app.run(host="127.0.0.1", port=PORT, debug=True)
+    app.run(host="127.0.0.1", debug=True)
