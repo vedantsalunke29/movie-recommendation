@@ -14,13 +14,13 @@ import re
 import nltk
 from nltk.util import pr
 
+nltk.download("stopwords")
 stemmer = nltk.SnowballStemmer("english")
 from nltk.corpus import stopwords
 import string
 
 stopword = set(stopwords.words("english"))
 import nltk
-
 
 
 app = Flask(__name__)
@@ -157,9 +157,9 @@ def get_recommendations(movie_name):
 
 @app.route("/detect/<text>", methods=["GET"])
 def get_result(text):
-    
+
     df = get_abuse_report(text=text)
-    
+
     return jsonify(df)
 
 
